@@ -11,7 +11,7 @@ int main ()
     while(getline(datafile, line))
     {
         int count = 0;
-        string a = line. substr(0, line.find(' '));
+        string a = line.substr(0, line.find(' '));
         left.push_back(stoi(a));
         for(int i=0; i<line.length(); i++)
         {
