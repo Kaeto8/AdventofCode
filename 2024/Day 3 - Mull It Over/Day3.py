@@ -1,6 +1,6 @@
 import re
 
-with open('/Users/kaeto/Documents/Advent of Code/data3.txt') as file:
+with open('data3.txt') as file:
     data = file.read()
 
 sum = 0
